@@ -1,0 +1,58 @@
+19-10
+//
+ logical operator
+
+AND  
+(expression1 && expression2)
+
+OR
+(expression1 || expression2)
+
+NOT
+!(expression1)
+
+cal everything at boolean 
+Bitwise AND
+(number1 & number2)
+
+//
+
+Conditional Statements:
+if statement: Executes a block of code if a condition is true.
+else statement: Executes a block of code if the if condition is false.
+else if statement: Checks multiple conditions in sequence.
+switch statement: Selects one of several code blocks to execute based on the value of an expression.
+
+Looping Statements:
+for loop: Executes a block of code a specific number of times.
+while loop: Executes a block of code as long as a condition is true.
+do-while loop: Executes a block of code at least once, and then continues to execute as long as a condition is true.
+
+Jump Statements:
+break statement: Exits a loop or switch statement.
+continue statement: Skips the current iteration of a loop and proceeds to the next iteration.
+goto statement: Transfers control to a labeled statement (generally discouraged due to potential for creating spaghetti code).
+
+
+
+#include <stdio.h>
+int main() {
+  int x = 5;  // Statement 1: Initialize x to 5
+  printf("x is: %d\n", x); // Statement 2: Print the value of x
+  x = x + 3;  // Statement 3: Update x by adding 3
+  printf("x is now: %d\n", x); // Statement 4: Print the updated value of x
+  x = x * 2;  // Statement 5: Update x by multiplying by 2
+  printf("x is now: %d\n", x); // Statement 6: Print the updated value of x
+  return 0;
+}
+
+
+
+#include <stdio.h>
+int main() {
+  int age;
+  printf("Please enter your age: "); // Statement 1: Prompt the user for input
+  scanf("%d", &age);              // Statement 2: Read the user's input
+  printf("You are %d years old.\n", age); // Statement 3: Print the user's age
+  return 0;
+}

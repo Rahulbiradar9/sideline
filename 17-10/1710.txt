@@ -1,0 +1,105 @@
+17/10
+int - integer
+float - single precision floating point values
+double - double precision floating point value
+char - single characters
+bool - Boolean values
+
+//
+
+if else statement 
+
+	if(condition){
+	
+	} else {
+		
+	}
+
+//
+
+while (condition) {
+	code to execute while the condition is true
+	}
+
+//
+
+for ( initialization ; condition ;update){
+	code to execute while the condition is true
+}
+
+//
+
+switch (variable){
+	case value1:
+code to execute if variable == value 1
+break;
+
+	case value2:
+code to execute if variable == value 2
+break;
+
+default:
+code to execute if variables does not match any case value
+	}
+
+
+// 
+
+returnType fuctionName(ParameterType1 parameter1, ParameterType2 parameter2)
+	   Function body
+		...
+    return returnValue;
+}
+
+eg		int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(3, 4);
+    std::cout << "3 + 4 = " << result << '\n';
+    return 0;
+}
+
+
+
+//
+
+
+
+classes and objects
+
+class MyClass{
+	public:
+	void myFunction(){
+	}
+};
+
+int main(){
+MyClass obj;
+obj.myFunction();
+}
+
+
+
+//
+
+low lvl and high lvl programming
+#include <iostream>
+#include <vector>
+
+int main() {
+    // Low-level programming
+    int number = 42;
+    int* ptr_number = &number;
+
+    // High-level programming
+    std::vector<int> myVector = {1, 2, 3};
+    for (const auto &i: myVector) {
+        std::cout << i << '\n';
+    }
+}
+
+
+
+
