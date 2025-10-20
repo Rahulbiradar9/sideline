@@ -1,0 +1,18 @@
+
+Operator	Description	Example	Result (if x = 5, y = 10)
+==	Equal to	x == y	false
+!=	Not equal to	x != y	true
+>	Greater than	x > y	false
+<	Less than	x < y	true
+>=	Greater than or equal to	x >= 5	true
+<=	Less than or equal to	x <= 5	true
+
+
+🧠 What's Going On
+- int i; declares a global variable i, but it is not initialized, so it contains a garbage value.
+- In C++, global variables are zero-initialized by default, so i is set to 0.
+- When std::cout << i << " enter the number" runs, it prints the current value of i (which is 0) followed by the prompt.
+
+in if condition the second line after if statment print statment always execute
+
+(e.g., ==, !=, >, <, >=, <=).
