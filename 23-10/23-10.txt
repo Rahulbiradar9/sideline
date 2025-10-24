@@ -1,0 +1,18 @@
+Introduction to the `switch` Statement: Syntax and Purpose
+The switch statement is a powerful control flow mechanism in C that allows you to execute different blocks of code based on the value of a single variable or expression. It provides a more structured and often more efficient alternative to long if-else if chains, especially when dealing with multiple possible values. Understanding the syntax and purpose of the switch statement is crucial for writing clean, readable, and maintainable C code. This lesson will delve into the details of the switch statement, exploring its syntax, how to use case and break, and the role of the default case.
+
+
+switch (expression) {
+  case constant-expression1:
+    // Code to execute if expression == constant-expression1
+    break;
+  case constant-expression2:
+    // Code to execute if expression == constant-expression2
+    break;
+  // ... more cases
+  default:
+    // Code to execute if expression doesn't match any case
+}
+
+
+switch (expression): The switch keyword initiates the statement. The expression inside the parentheses is evaluated. This expression must result in an integer or character type. """Floating-point types and strings are not allowed."""

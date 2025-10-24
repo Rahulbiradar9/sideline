@@ -1,0 +1,16 @@
+for loop
+Introduction to `for` Loops: Syntax and Components (Initialization, Condition, Increment)
+The for loop is a fundamental control flow statement in C, providing a concise way to repeatedly execute a block of code. It's particularly useful when you know in advance how many times you need to iterate. Understanding the syntax and components of a for loop – initialization, condition, and increment – is crucial for writing efficient and effective C programs. This lesson will delve into each of these components, providing a solid foundation for using for loops in more complex scenarios.
+
+for (initialization; condition; increment/decrement) {
+    // Code to be executed repeatedly
+}
+
+increment we use  less than sign
+decrement we use greater than sign
+
+
+Example 5: Empty increment
+
+It's possible to omit the increment/decrement part of the for loop, but you must still include the semicolon. If you do this, you'll need to update the loop counter variable within the loop body itself to avoid an infinite loop.
+
